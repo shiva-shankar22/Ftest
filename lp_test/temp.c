@@ -2,10 +2,7 @@
 #include<string.h>
 int main(){
 
-char str[100]="hello",temp[100];
-
-
-
+printf("temp\n");
 
    return 0;
 }

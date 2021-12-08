@@ -17,6 +17,11 @@ int main(){
           printf("execute mode");
 
         printf("\nfile sze %ld",buf.st_size);
+
+        dt=*(gmtime(&buf.st_ctim));
+        
+        printf("\n\n created time \n %d-%d-%d-%d-%d-%d",dt.tm_mday,dt.tm_mon,dt.tm_year+1900,dt.tm_hour,dt.tm_min,dt.tm_sec);
+
     }
     else
       printf("err");

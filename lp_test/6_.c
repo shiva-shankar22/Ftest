@@ -3,7 +3,7 @@
 #include<sys/stat.h>
 #include<time.h>
 
-int main(){
+int main(){ 
     int fd;
     struct stat buf; struct tm dt;
 

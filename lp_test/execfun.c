@@ -2,7 +2,7 @@
 #include<unistd.h>
 int main(){
      
-     char *grv[]={"./tempm",NULL};
+     char *grv[]={"./temp",NULL};
 
      execvp(grv[0],grv);
 
